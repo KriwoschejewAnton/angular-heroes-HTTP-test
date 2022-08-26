@@ -18,7 +18,7 @@ const httpOptions = {
 
 @Injectable()
 export class SearchService {
-  heroesUrl = 'http://im-markup-language-service-dev.aws.wiley.com:8984/articles';  // URL to web api
+  heroesUrl = 'api/heroes';  // URL to web api
   private handleError: HandleError;
 
   constructor(
