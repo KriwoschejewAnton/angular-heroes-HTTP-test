@@ -15,7 +15,7 @@ export class HeroesComponent implements OnInit {
   heroName = '';
 
   constructor(private heroesService: SearchService) {
-    alert('run');
+    //alert('run');
   }
 
   @ViewChild('heroEditInput')
