@@ -1,7 +1,7 @@
 <h2>Heroes</h2>
 <div class="search">
   <label for="hero-name">Hero name: </label>
-  <input type="text" [(ngModel)]="heroName" id="hero-name">
+  <input type="text" [(ngModel)]="heroName" id="hero-name"/>
 
   <button type="button" [disabled]="!heroName"
     (click)="add(heroName)">Add hero</button>
